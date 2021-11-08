@@ -14,8 +14,6 @@
   <p align="center">
     <b>Dependagraph</b> is a little tool to help you visualize your <b>JavaScript/TypeScript project's dependencies</b> using a network graph. Showing you what needs what and what is probably useless in a fun and graphical way.
     <br />
-    <a href="https://github.com/Emeto/dependagraph"><strong>Explore the docs »</strong></a>
-    <br />
     <br />
     <a href="https://github.com/Emeto/dependagraph/issues">Report Bug</a>
     ·
@@ -50,27 +48,6 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]]
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `Dependagraph`, `project_description`
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-### Built With
-
-* [vis.js](https://visjs.org/)
-* [Vue.js](https://vuejs.org/)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
@@ -124,10 +101,14 @@ At this point, **Dependagraph** will parse your `package-lock.json` file to gene
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-    - [] Nested Feature
+- Full support for **yarn**
+- Writing an actual UI
+  - Using `Vue.js` and `TailwindCSS`
+  - Getting more information on a clicked dependency on the graph
+  - Checking for more recent dependencies versions
+  - Color-coded graph nodes
+  - Real-time filtering
+- Supporting other languages
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
