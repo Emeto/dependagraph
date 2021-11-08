@@ -6,8 +6,17 @@
   "bin": {
     "dependagraph": "./bin/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Emeto/dependagraph.git"
+  },
+  "keywords": ["visualization","nodejs","javascript","npm","network-graph","package-json","dependencies"],
   "author": "Jérémy Castellano",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Emeto/dependagraph/issues"
+  },
+  "homepage": "https://github.com/Emeto/dependagraph",
   "dependencies": {
     "lodash": "^4.17.21"
   }
