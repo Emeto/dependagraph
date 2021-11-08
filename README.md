@@ -9,7 +9,7 @@
 
 
 <div align="center">
-<img src="images/screenshot.png" alt="dependagraph screenshot">
+<img src="images/screenshot.png" alt="dependagraph screenshot" width="350" height="270">
 <h3 align="center">Dependagraph</h3>
 
   <p align="center">
