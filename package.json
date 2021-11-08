@@ -1,0 +1,14 @@
+{
+  "name": "dependagraph",
+  "version": "0.1.0",
+  "description": "Helps you visualize the dependencies of your project",
+  "main": "./lib/parser.js",
+  "bin": {
+    "dependagraph": "./bin/index.js"
+  },
+  "author": "Jérémy Castellano",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
